@@ -8,8 +8,11 @@ img {
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     width: 90%;
     margin: auto;
+    background-color: #f0f2f5;
 }
 
 .header {
@@ -32,8 +35,6 @@ body {
 .info {
     font-size: 24px;
     text-align: center;
-    width: 400px;
+    width: 350px;
     margin: auto;
 }
-
-.form {}
