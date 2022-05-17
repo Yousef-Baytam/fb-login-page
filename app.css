@@ -14,6 +14,8 @@ body {
     width: 90%;
     margin: auto;
     background-color: #f0f2f5;
+    height: 100vh;
+    justify-content: center;
 }
 
 .header {
@@ -29,7 +31,7 @@ body {
 
 .img img {
     margin: auto;
-    width: fit-content;
+    width: 300px;
     border: 1px;
 }
 
@@ -48,6 +50,10 @@ body {
     background-color: white;
     border-radius: 7px;
     box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.form-wrapper {
+    padding: 0 3.8em;
 }
 
 ::placeholder {
@@ -106,7 +112,7 @@ div a {
 }
 
 .bot-link {
-    padding: 2em;
+    padding: 2em 0em;
     margin: auto;
     font-size: 14px;
     width: 400px;
@@ -116,4 +122,35 @@ div a {
 .bot-link a {
     color: black;
     font-weight: bold;
+}
+
+@media (min-width:900px) {
+    body {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    div.img {
+        padding: 0;
+    }
+
+    .info {
+        margin: 0;
+    }
+}
+
+@media (min-width:1070px) {
+    .info {
+        padding-left: 1em;
+        font-size: 28px;
+        width: 100%;
+        text-align: left;
+    }
 }
