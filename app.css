@@ -40,15 +40,14 @@ body {
 }
 
 .form {
-    width: 450px;
+    width: 380px;
     margin: auto;
     display: flex;
     flex-direction: column;
     background-color: white;
+    border-radius: 5px;
 }
 
-input {
-    display: block;
-    margin: auto;
-    width: 100%;
+::placeholder {
+    color: rgba(112, 112, 112, 0.8);
 }
