@@ -18,7 +18,7 @@ body {
 .header {
     width: 500px;
     margin: auto;
-    margin-top: 2em;
+    margin-top: 1em;
     margin-bottom: 2em;
 }
 
@@ -45,21 +45,30 @@ body {
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 ::placeholder {
     color: rgba(112, 112, 112, 0.8);
 }
 
-input {
+input,
+input+button {
     display: block;
     width: 83%;
     margin: 0.7em auto;
-    border-radius: 5px;
+    border-radius: 7px;
     height: 20px;
     padding: 1em;
     font-size: large;
     border: 1px solid rgba(112, 112, 112, 0.3);
+}
 
+input+button {
+    background-color: #1877f2;
+    height: 50px;
+    padding: 0;
+    width: 93%;
+    color: white;
+    font-weight: bold;
 }
