@@ -61,6 +61,11 @@ body {
     font-size: 17px;
 }
 
+button,
+a {
+    transition: all 100ms linear;
+}
+
 input,
 input+button {
     display: block;
@@ -80,6 +85,7 @@ input+button {
     width: 93%;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .form div:nth-of-type(2) {
@@ -109,6 +115,7 @@ div a {
     font-weight: bold;
     border: 0;
     padding: 0 16px;
+    cursor: pointer;
 }
 
 .bot-link {
@@ -122,6 +129,18 @@ div a {
 .bot-link a {
     color: black;
     font-weight: bold;
+}
+
+input+button:hover {
+    background-color: #125ec0;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.account button:hover {
+    background-color: #2f851e;
 }
 
 @media (min-width:900px) {
