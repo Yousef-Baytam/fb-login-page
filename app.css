@@ -51,3 +51,15 @@ body {
 ::placeholder {
     color: rgba(112, 112, 112, 0.8);
 }
+
+input {
+    display: block;
+    width: 83%;
+    margin: 0.7em auto;
+    border-radius: 5px;
+    height: 20px;
+    padding: 1em;
+    font-size: large;
+    border: 1px solid rgba(112, 112, 112, 0.3);
+
+}
