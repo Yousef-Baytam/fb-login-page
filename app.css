@@ -46,17 +46,19 @@ body {
     flex-direction: column;
     background-color: white;
     border-radius: 7px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
 }
 
 ::placeholder {
     color: rgba(112, 112, 112, 0.8);
+    font-size: 17px;
 }
 
 input,
 input+button {
     display: block;
     width: 83%;
-    margin: 0.7em auto;
+    margin: 0.9em auto;
     border-radius: 7px;
     height: 20px;
     padding: 1em;
@@ -84,4 +86,20 @@ input+button {
 div a {
     color: #1877f2;
     text-decoration: none;
+}
+
+.account {
+    margin: auto;
+    padding: 1.5em;
+}
+
+.account button {
+    font-size: 17px;
+    height: 3em;
+    border-radius: 7px;
+    background-color: #42b72a;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    padding: 0 16px;
 }
