@@ -60,7 +60,7 @@ input+button {
     width: 83%;
     margin: 0.9em auto;
     border-radius: 7px;
-    height: 20px;
+    height: 15px;
     padding: 1em;
     font-size: large;
     border: 1px solid rgba(112, 112, 112, 0.3);
@@ -102,4 +102,13 @@ div a {
     font-weight: bold;
     border: 0;
     padding: 0 16px;
+}
+
+.bot-link {
+    padding: 2em;
+    margin: auto;
+}
+
+.bot-link a {
+    color: black;
 }
