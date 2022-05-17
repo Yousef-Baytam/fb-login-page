@@ -18,3 +18,13 @@ body {
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
+.img {
+    padding: 0em 6.5em;
+}
+
+.img img {
+    margin: auto;
+    width: fit-content;
+    border: 1px;
+}
