@@ -126,12 +126,14 @@ div a {
 
 @media (min-width:900px) {
     body {
+        padding-top: 10em;
         flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
+        align-items: top;
+        justify-content: center;
     }
 
     .header {
+        margin: 3em;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
